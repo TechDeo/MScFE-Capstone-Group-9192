@@ -4,7 +4,16 @@ Welcome to the official repository for the MSc Financial Engineering Capstone Pr
 
 ## 📘 Project Overview
 
-This capstone project aims to explore and analyze advanced financial topics using data science, machine learning, and deep learning methodologies. The goal is to derive actionable insights and demonstrate practical applications of financial engineering techniques.
+This capstone project:
+
+Asset allocation and machine (deep) learning: A performance analysis of energy industry within distressed market conditions
+
+In This project:
+LSTM and GBR models are applied to daily historical price data of U.S. energy sector stocks with intraday prices greater than $50.
+Minimize losses from distressed market periods.
+Assess the performance of deep learning-based allocations versus traditional mean-variance allocation subject to monthly rebalancing.
+Evaluate  the performance of the model, measure with metrics like maximum drawdown, Sortino ratio, the Sharpe ratio, and portfolio turnover.
+
 
 Currently under development.
 
