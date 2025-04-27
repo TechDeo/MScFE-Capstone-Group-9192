@@ -1,21 +1,23 @@
+
 # MScFE Capstone Group 9192
 
 Welcome to the official repository for the MSc Financial Engineering Capstone Project by Group 9192.
 
 ## 📘 Project Overview
 
-This capstone project:
+**Project Title:**  
+**Asset Allocation and Machine (Deep) Learning: A Performance Analysis of the Energy Industry Within Distressed Market Conditions**
 
-Asset allocation and machine (deep) learning: A performance analysis of energy industry within distressed market conditions
+**Project Description:**  
+In this project, we apply LSTM (Long Short-Term Memory networks) and Gradient Boosted Regression (GBR) models to daily historical price data of U.S. energy sector stocks with intraday prices greater than $50.  
+Our objectives are to:
+- Minimize losses during distressed market periods.
+- Assess the performance of deep learning-based asset allocations versus traditional mean-variance allocations under monthly rebalancing.
+- Evaluate models using financial performance metrics including Maximum Drawdown, Sortino Ratio, Sharpe Ratio, and Portfolio Turnover.
 
-In This project:
-LSTM and GBR models are applied to daily historical price data of U.S. energy sector stocks with intraday prices greater than $50.
-Minimize losses from distressed market periods.
-Assess the performance of deep learning-based allocations versus traditional mean-variance allocation subject to monthly rebalancing.
-Evaluate  the performance of the model, measure with metrics like maximum drawdown, Sortino ratio, the Sharpe ratio, and portfolio turnover.
+> **Status:** Currently under development.
 
-
-Currently under development.
+---
 
 ## 📂 Repository Structure
 
@@ -25,21 +27,45 @@ Currently under development.
   - `scripts/` — Python scripts and utilities
   - `models/` — Trained models and evaluation metrics
   - `reports/` — Final analysis and presentation materials
+  - `config/` — Configuration files (e.g., paths, hyperparameters)
 
-## 🛠️ Tech Stack (Planned)
+---
+
+## 🛠️ Tech Stack
 
 - Python
 - Jupyter Notebook
 - Pandas, NumPy, Scikit-learn
 - Matplotlib, Seaborn, Plotly
-- TensorFlow / PyTorch (TBD)
+- TensorFlow or PyTorch (TBD)
 - Git for version control
+
+---
 
 ## 🚀 Getting Started
 
 To set up the project locally:
 
-1. Clone the repo:
-   ```bash
-   git clone git@github.com:TechDeo/MScFE-Capstone-Group-9192.git
-   cd MScFE-Capstone-Group-9192
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/TechDeo/MScFE-Capstone-Group-9192.git
+    cd MScFE-Capstone-Group-9192
+    ```
+
+2. Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3. Install project dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Launch Jupyter Notebook:
+    ```bash
+    jupyter notebook
+    ```
+
+---
